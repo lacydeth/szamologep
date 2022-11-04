@@ -1,0 +1,52 @@
+body {
+    opacity: 1;
+    background-image: linear-gradient(
+      to right,
+      black,
+      black 20px,
+      white 20px,
+      white
+    );
+    background-size: 40px 100%;
+  }
+  
+  form {
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 30px;
+    height: 30vh;
+  }
+  
+  [type="button"] {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    background-color: darkgray;
+  }
+  
+  [type="text"] {
+    margin: 10px;
+    font-size: 1.5em;
+  }
+  
+  label {
+    font-size: 2em;
+    font-weight: 600;
+    font-family: monospace;
+  }
+  
+  #vege {
+    font-size: 2em;
+    border: 3px solid black;
+    width: 100px;
+    height: 2em;
+    overflow-x: hidden;
+    overflow-x: scroll;
+    margin: auto;
+  }
